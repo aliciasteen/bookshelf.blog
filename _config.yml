@@ -1,5 +1,5 @@
 # Site settings
-title: Library Jekyll Theme
+title: Bookshelf
 email: your-email@domain.com
 description: >
   Write an awesome description for your new site here. You can edit this
@@ -8,10 +8,14 @@ description: >
 baseurl: ""
 url: "http://example.com"
 
-# Collections
-#collections:
-#  books:
-#    output: false
-
 sass:
   style: compressed
+
+markdown: kramdown
+
+# Pagination
+paginate:           16
+paginate_path:      /page:num/
+
+plugins:
+  - jekyll-paginate
