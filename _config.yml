@@ -14,8 +14,8 @@ sass:
 markdown: kramdown
 
 # Pagination
-paginate:           16
-paginate_path:      /page:num/
+#paginate:           16
+#paginate_path:      /page:num/
 
-plugins:
-  - jekyll-paginate
+#plugins:
+#  - jekyll-paginate
