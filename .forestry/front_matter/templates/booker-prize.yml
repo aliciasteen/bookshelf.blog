@@ -1,13 +1,13 @@
 ---
-label: Booker Prize
-hide_body: 
-is_partial: 
+label: post
+hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
-  default: ''
+  hidden: true
+  default: post
 - name: title
   label: Title
   type: text
@@ -18,6 +18,8 @@ fields:
   type: datetime
   hidden: false
   default: ''
+  config:
+    required: true
 - name: subtitle
   label: Subtitle
   type: text
@@ -56,5 +58,5 @@ fields:
 - name: backup_date
   label: Backup date
   type: text
-  hidden: false
+  hidden: true
   default: ''
