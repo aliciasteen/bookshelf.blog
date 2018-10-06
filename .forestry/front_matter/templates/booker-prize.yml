@@ -60,3 +60,5 @@ fields:
   type: text
   hidden: true
   default: ''
+pages:
+- _posts/2018/the-watchmaker-of-filigree-street.md
